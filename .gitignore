@@ -9,7 +9,6 @@
 /coverage
 
 # next.js
-/.next/static
 /.next/cache
 /out/
 
