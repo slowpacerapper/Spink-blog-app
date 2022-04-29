@@ -7,6 +7,7 @@ import {
   MyCommentDate,
   MyCommentText,
   LikeButton,
+  MyArticleHeading,
 } from "../../styles/MyArticles/Articles.styled";
 import { useRouter } from "next/router";
 import Child from "../../components/ChildComponent/Child";
@@ -90,9 +91,12 @@ const Articles = () => {
               xs={10}
               direction="row"
               justifyContent="center"
-              sx={{ margin: "0 auto", padding: " 0 1rem" }}
+              sx={{
+                margin: "0 auto",
+                padding: "0 1rem",
+              }}
             >
-              <MyArticleTitle>{artic.title}</MyArticleTitle>
+              <MyArticleHeading>{artic.title}</MyArticleHeading>
             </Grid>
             <CardContent
               sx={

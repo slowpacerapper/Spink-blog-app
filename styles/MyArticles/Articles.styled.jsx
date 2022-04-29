@@ -7,10 +7,10 @@ export const MyArticleTitle = styled(Typography)({
   fontSize: "28px",
   fontWeight: "500",
   color: "#888888",
-  margin: "2rem auto",
+  margin: "0 auto",
   textAlign: "center",
   position: "relative",
-  width: "max-content",
+  // width: "max-content",
   height: "max-content",
   "&:after": {
     content: '""',
@@ -28,6 +28,15 @@ export const MyArticleText = styled(Typography)({
   lineHeight: "32px",
   fontSize: "14px",
   fontWeight: "400",
+  color: "#777777",
+});
+
+export const MyArticleHeading = styled(Typography)({
+  fontFamily: "Space Grotesk",
+  lineHeight: "32px",
+  fontSize: "28px",
+  fontWeight: "400",
+  textAlign: "center",
   color: "#777777",
 });
 
