@@ -4,36 +4,16 @@ import Image from "next/image";
 import React from "react";
 import { Box } from "@mui/system";
 import { LocationOnRounded, PhoneAndroid, Send } from "@mui/icons-material";
-import { MyArticleText, MyCommentText } from "../../styles/MyArticles/Articles.styled";
+import {
+  MyArticleText,
+  MyCommentText,
+} from "../../styles/MyArticles/Articles.styled";
 import { MyTextField } from "../../components/Hero/Hero.styled";
 import { useMediaQuery } from "@mui/material";
 // import emailjs from "@emailjs/browser";
 
 const index = () => {
   const matches = useMediaQuery("(max-width:600px)");
-
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_yv72tad",
-  //       "template_gvl8zxy",
-  //       form.current,
-  //       "gPCVLkImp6KNbUGGh"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  //   e.target.reset();
-  // };
 
   return (
     <Grid container item xs={12} sx={{ minHeight: "100vh" }}>
