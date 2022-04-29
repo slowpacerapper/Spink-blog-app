@@ -136,6 +136,7 @@ const Articles = () => {
                   borderRadius: "5px",
                   margin: "0 auto",
                   width: "max-content",
+                  wordWrap: "normal",
                   padding: "0.25rem 1.25rem",
                 }}
               >
